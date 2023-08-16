@@ -1,6 +1,6 @@
 const App = () => {
   return (
-    <div className="bg-red-400  items-center flex justify-center">
+    <div className="flex items-center justify-center bg-red-400">
       <h1>hello App</h1>
     </div>
   );
