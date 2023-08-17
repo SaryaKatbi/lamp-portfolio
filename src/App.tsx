@@ -19,6 +19,16 @@ const App = () => {
           </li>
         </ul>
       </nav>
+
+      <section className="flex h-[700px] flex-col items-center justify-center self-center">
+        <h2 className="mb-7 mt-10 text-8xl font-medium">Web Designer</h2>
+        <h3 className="mb-24 text-5xl font-light">SARYA KATBY</h3>
+        <div className="h-fit w-fit border px-8 py-2.5">MY WORKS</div>
+      </section>
+
+      <section className=" -mt-36 flex items-center justify-center overflow-hidden">
+        <div className="h-28 w-[460px] rounded-full bg-gradient-radial "></div>
+      </section>
     </div>
   );
 };
