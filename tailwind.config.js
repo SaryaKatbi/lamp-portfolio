@@ -8,7 +8,9 @@ export default {
           "radial-gradient(150% 154% at 50.00% 50.00%, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.00) 28%)",
       },
 
-      colors: {},
+      colors: {
+        primmaryDark: "rgb(17, 17, 17)",
+      },
     },
   },
   plugins: [],
