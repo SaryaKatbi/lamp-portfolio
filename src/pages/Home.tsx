@@ -1,12 +1,10 @@
 import Button from "../components/Button";
 import Lamp from "../components/Lamp";
-// import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
-    <div className="px-28">
+    <div>
       <div className="flex justify-center">
-        {/* <Navbar /> */}
         <Lamp />
       </div>
 
