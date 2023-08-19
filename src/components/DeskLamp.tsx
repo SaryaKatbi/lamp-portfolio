@@ -5,45 +5,47 @@ const DeskLamp = ({ mouseY }: { mouseY: number }) => {
   const redRotate = ((mouseY - 0) * (90 - 70)) / (1000 - 0) + 70;
 
   return (
-    <div>
-      <div className="flex h-fit w-fit origin-bottom flex-col items-center justify-center bg-blue-600">
+    <div className="flex flex-col items-center justify-center">
+      <div
+        className="origin-bottom-center1 flex flex-col items-center justify-center"
+        style={{ transform: `rotate(${greenRotation}deg)` }}
+      >
         <div
-          className="origin-bottom-center1 flex h-fit w-fit flex-col items-center justify-center"
-          style={{ transform: `rotate(${greenRotation}deg)` }}
+          className="origin-bottom-center2 flex flex-col items-center justify-center "
+          style={{ transform: `rotate(${yellowRotate}deg)` }}
         >
           <div
-            className="origin-bottom-center1 flex h-fit w-fit flex-col items-center justify-center "
-            style={{ transform: `rotate(${yellowRotate}deg)` }}
+            className="origin-bottom-center3 flex flex-col items-center justify-center "
+            style={{ transform: `rotate(${redRotate}deg)` }}
           >
-            <div
-              className=" origin-bottom-center1 mb-[2px] flex rotate-90 flex-col items-center justify-center "
-              style={{ transform: `rotate(${redRotate}deg)` }}
-            >
-              <div className="-mb-[1px] h-4 w-8 rounded-t-full bg-white " />
-              <div className="flex h-16 w-32 rotate-180 items-center justify-end rounded-t-full border-[2px] border-white">
-                <div className="absolute -mt-2 mr-6 h-8 w-8 -rotate-12 rounded-tr-full border-t-[1px]" />
-                <div className="absolute -mt-2 mr-6 h-8 w-8 -rotate-12 rounded-tr-full border-r-[1px]" />
-              </div>
-              <div className=" -mt-[2px] h-2 w-3 border-[2px] border-white" />
-              <div className=" -mt-[2px] flex h-9 w-9 items-center justify-center rounded-full border-[2px] border-white">
-                <div className="h-5 w-5 rounded-full border-[2px] border-white" />
-              </div>
+            <div className=" h-5 w-10 rounded-t-full bg-white " />
+            <div className="flex h-20 w-40 items-center justify-center rounded-b-full border-[2px] border-white ">
+              <div className="absolute mr-14 mt-2 h-8 w-8 -rotate-12 rounded-bl-full border-b-[1px] border-white" />
+              <div className="absolute mr-14 mt-2 h-8 w-8 -rotate-12 rounded-bl-full border-l-[1px] border-white" />
             </div>
-            <div className="-mb-[1px] h-44 w-[2px] overflow-hidden bg-white " />
-            <div className=" mb-[1px] flex h-9 w-9 items-center justify-center rounded-full border-[2px] border-white">
-              <div className="h-5 w-5 rounded-full border-[2px] border-white" />
+            <div className=" -mt-[2px] h-3 w-4 border-[2px] border-white" />
+
+            <div className=" -mt-[2px] flex h-10 w-10 items-center justify-center rounded-full border-[2px] border-white">
+              <div className="h-6 w-6 rounded-full border-[2px] border-white" />
             </div>
           </div>
-          <div className="h-44 w-[2px] overflow-hidden bg-white" />
-          <div className="flex h-9 w-9 items-center justify-center rounded-full border-[2px] border-white">
-            <div className="h-5 w-5 rounded-full border-[2px] border-white" />
+
+          <div className="-mb-[1px] h-56 w-[2px] overflow-hidden bg-white " />
+          <div className="  flex h-10 w-10 items-center justify-center rounded-full border-[2px] border-white">
+            <div className="h-6 w-6 rounded-full border-[2px] border-white" />
           </div>
         </div>
-        <div className="h-44 w-[2px] overflow-hidden bg-white" />
-        <div className="-mb-[2px] h-4 w-6 rounded-t-full border-[2px] border-white" />
-        <div className="-mb-[2px] h-4 w-6 border-[2px] border-white" />
-        <div className="h-5 w-32 rounded-t-lg border-[2px] border-white" />
+
+        <div className="h-56 w-[2px] overflow-hidden bg-white" />
+        <div className="flex h-10 w-10 items-center justify-center rounded-full border-[2px] border-white">
+          <div className="h-6 w-6 rounded-full border-[2px] border-white" />
+        </div>
       </div>
+
+      <div className="h-56 w-[2px] overflow-hidden bg-white" />
+      <div className="-mb-[2px] h-5 w-7 rounded-t-full border-[2px] border-white" />
+      <div className="-mb-[2px] h-5 w-7 border-[2px] border-white" />
+      <div className="h-6 w-44 rounded-t-lg border-[2px] border-white" />
     </div>
   );
 };

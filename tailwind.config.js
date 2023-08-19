@@ -9,6 +9,8 @@ export default {
 
       transformOrigin: {
         "bottom-center1": "50% 97%",
+        "bottom-center2": "50% 95%",
+        "bottom-center3": "50% 86% ",
       },
 
       backgroundImage: {

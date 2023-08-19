@@ -19,7 +19,7 @@ const Home = () => {
       </section>
 
       <section className="-mt-28 flex items-center justify-center overflow-hidden">
-        <div className="h-32 w-[700px] rounded-full bg-gradient-radial"></div>
+        <div className="h-32 w-[700px] rounded-full bg-gradient-radial" />
       </section>
     </div>
   );
