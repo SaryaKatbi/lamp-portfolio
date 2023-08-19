@@ -1,8 +1,16 @@
+import { useState } from "react";
+import DeskLamp from "../components/DeskLamp";
+
 const About = () => {
+  const [mouseY, setMouseY] = useState(0);
   return (
-    <div>
-      <h1>Hello About</h1>
-    </div>
+    <section
+      onMouseMove={(event) => {
+        setMouseY(event.clientY);
+      }}
+    >
+      <DeskLamp mouseY={mouseY} />
+    </section>
   );
 };
 

@@ -4,7 +4,7 @@ const Navbar = () => {
   const act =
     "border-b-[2px] border-white border-opacity-100 pb-2 px-2 transition-all";
   const notAct =
-    "border-b-[2px] border-white border-opacity-0 pb-2  transition-all hover:border-opacity-100";
+    "border-b-[2px] border-white border-opacity-0 pb-2 transition-all hover:border-opacity-100";
 
   return (
     <nav className="top-0 flex h-[120px] w-full items-center justify-between">
