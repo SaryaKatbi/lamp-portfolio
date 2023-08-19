@@ -9,8 +9,12 @@ const Home = () => {
       </div>
 
       <section className="mt-20 flex h-[700px] flex-col items-center justify-center self-center">
-        <h2 className="mb-7 mt-10 text-8xl font-medium">Web Designer</h2>
-        <h3 className="mb-24 text-5xl font-light">SARYA KATBY</h3>
+        <h2 className="font-primmariFont mb-7 mt-10 text-8xl font-medium">
+          Web Designer
+        </h2>
+        <h3 className="font-primmariFont mb-24 text-5xl font-light">
+          SARYA KATBY
+        </h3>
         <Button />
       </section>
 

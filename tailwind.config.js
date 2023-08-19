@@ -3,9 +3,17 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        primmariFont: ["Poppins"],
+      },
+
+      transformOrigin: {
+        "bottom-center1": "50% 97%",
+      },
+
       backgroundImage: {
         "gradient-radial":
-          "radial-gradient(150% 154% at 50.00% 50.00%, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.00) 28%)",
+          "radial-gradient(150% 154% at 50% 50%, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.00) 28%)",
       },
 
       colors: {

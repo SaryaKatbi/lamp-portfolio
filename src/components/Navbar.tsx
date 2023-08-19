@@ -7,8 +7,12 @@ const Navbar = () => {
     "border-b-[2px] border-white border-opacity-0 pb-2 transition-all hover:border-opacity-100";
 
   return (
-    <nav className="top-0 flex h-[120px] w-full items-center justify-between">
-      <a href="https://github.com/SaryaKatbi" target="_blank">
+    <nav className="font-primmariFont top-0 flex h-[120px] w-full items-center justify-between">
+      <a
+        href="https://github.com/SaryaKatbi"
+        target="_blank"
+        className="border-b-[1px] border-white border-opacity-0 transition-all hover:border-opacity-100  "
+      >
         DEVELOPED BY SARYA KATBY
       </a>
 
