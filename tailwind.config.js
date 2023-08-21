@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         primmariFont: ["Poppins"],
+        secondaryFont: ["Inter"],
       },
 
       transformOrigin: {

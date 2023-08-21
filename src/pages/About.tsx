@@ -12,7 +12,7 @@ const About = () => {
         }}
       >
         <DeskLamp mouseY={mouseY} />
-        <article className="font-primmariFont flex h-fit w-[620px] flex-col items-center gap-5 bg-blue-950 text-start font-light text-white  ">
+        <article className="font-secondaryFont flex h-fit w-[620px] flex-col gap-4 text-start font-light text-white ">
           <h2 className="text-start text-6xl uppercase ">About Me</h2>
           <p className="text-base">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
