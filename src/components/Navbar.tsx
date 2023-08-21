@@ -1,3 +1,4 @@
+import { GoArrowUpRight } from "react-icons/go";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -11,9 +12,12 @@ const Navbar = () => {
       <a
         href="https://github.com/SaryaKatbi"
         target="_blank"
-        className="border-b-[1px] border-white border-opacity-0 text-sm transition-all hover:border-opacity-100 "
+        className="group flex items-center border-b-[1px] border-white border-opacity-0 text-sm transition-all hover:border-opacity-100 "
       >
         DEVELOPED BY SARYA KATBY
+        <span className="-ml-3 rotate-45 text-lg opacity-0 transition-all group-hover:ml-0.5 group-hover:rotate-45 group-hover:opacity-100">
+          <GoArrowUpRight />
+        </span>
       </a>
 
       <ul className=" flex gap-x-12">
