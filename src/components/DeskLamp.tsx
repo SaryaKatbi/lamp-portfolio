@@ -7,19 +7,19 @@ const DeskLamp = ({ mouseY }: { mouseY: number }) => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div
-        className="origin-bottom-center1 flex flex-col items-center justify-center"
+        className="flex origin-bottom-center1 flex-col items-center justify-center"
         style={{ transform: `rotate(${greenRotation}deg)` }}
       >
         <div
-          className="origin-bottom-center2 flex flex-col items-center justify-center "
+          className="flex origin-bottom-center2 flex-col items-center justify-center "
           style={{ transform: `rotate(${yellowRotate}deg)` }}
         >
           <div
-            className="origin-bottom-center3 flex flex-col items-center justify-center "
+            className="flex origin-bottom-center3 flex-col items-center justify-center "
             style={{ transform: `rotate(${redRotate}deg)` }}
           >
             <div className=" h-5 w-10 rounded-t-full bg-white " />
-            <div className="flex h-20 w-40 items-center justify-center rounded-b-full border-[2px] border-white ">
+            <div className="flex h-[88px] w-44 items-center justify-center rounded-b-full border-[2px] border-white ">
               <div className="absolute mr-14 mt-2 h-8 w-8 -rotate-12 rounded-bl-full border-b-[1px] border-white" />
               <div className="absolute mr-14 mt-2 h-8 w-8 -rotate-12 rounded-bl-full border-l-[1px] border-white" />
             </div>
@@ -45,7 +45,7 @@ const DeskLamp = ({ mouseY }: { mouseY: number }) => {
       <div className="h-56 w-[2px] overflow-hidden bg-white" />
       <div className="-mb-[2px] h-5 w-7 rounded-t-full border-[2px] border-white" />
       <div className="-mb-[2px] h-5 w-7 border-[2px] border-white" />
-      <div className="h-6 w-44 rounded-t-lg border-[2px] border-white" />
+      <div className="h-6 w-48 rounded-t-lg border-[2px] border-white" />
     </div>
   );
 };
