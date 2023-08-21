@@ -13,10 +13,6 @@ const DeskLamp = ({
 }) => {
   // NewValue = (((OldValue - OldMin) * (NewMax - NewMin)) / (OldMax - OldMin)) + NewMin
 
-  // const greenRotation = ((mouseY - 0) * (20 - 12)) / (1000 - 0) + 12;
-  // const yellowRotate = ((mouseY - 0) * (60 - 40)) / (1000 - 0) + 40;
-  // const redRotate = ((mouseY - 0) * (90 - 70)) / (1000 - 0) + 70;
-
   const greenRotation = ((mouseY - 0) * (50 - 40)) / (1000 - 0) + 40;
   const yellowRotate = ((mouseY - 0) * (40 - 60)) / (1000 - 0) + 50;
   const redRotate = ((mouseY - 0) * (100 - 65)) / (1000 - 0) + 65;
