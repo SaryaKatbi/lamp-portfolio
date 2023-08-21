@@ -15,7 +15,7 @@ const Navbar = () => {
         className="group flex items-center border-b-[1px] border-white border-opacity-0 text-sm transition-all hover:border-opacity-100 "
       >
         DEVELOPED BY SARYA KATBY
-        <span className="-ml-3 rotate-45 text-lg opacity-0 transition-all group-hover:ml-0.5 group-hover:rotate-45 group-hover:opacity-100">
+        <span className="-ml-3 text-lg opacity-0 transition-all group-hover:ml-0.5 group-hover:rotate-0 group-hover:opacity-100">
           <GoArrowUpRight />
         </span>
       </a>
