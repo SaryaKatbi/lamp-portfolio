@@ -8,14 +8,14 @@ const Navbar = () => {
     "border-b-[2px] border-white border-opacity-0 pb-2 transition-all hover:border-opacity-100";
 
   return (
-    <nav className="font-secondaryFont top-0 z-50 flex h-[120px] w-full items-center justify-between ">
+    <nav className="top-0 z-50 flex h-[120px] w-full items-center justify-between font-secondaryFont ">
       <a
         href="https://github.com/SaryaKatbi"
         target="_blank"
         className="group flex items-center border-b-[1px] border-white border-opacity-0 text-sm transition-all hover:border-opacity-100 "
       >
         DEVELOPED BY SARYA KATBY
-        <span className="-ml-3 text-lg opacity-0 transition-all group-hover:ml-0.5 group-hover:rotate-0 group-hover:opacity-100">
+        <span className="-ml-3 text-lg text-white opacity-0 transition-all group-hover:ml-0.5 group-hover:rotate-45 group-hover:opacity-100">
           <GoArrowUpRight />
         </span>
       </a>
@@ -45,12 +45,12 @@ const Navbar = () => {
 
         <li>
           <NavLink
-            to="/works"
+            to="/abilities"
             className={({ isActive }) => {
               return !isActive ? `${notAct}` : `${act}`;
             }}
           >
-            Works
+            Abilities
           </NavLink>
         </li>
 
