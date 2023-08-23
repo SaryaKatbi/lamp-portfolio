@@ -1,11 +1,13 @@
-const Skils = () => {
+const Skils = (props: { skilsColor: string }) => {
   return (
-    <div className="flex h-[820px] w-full gap-20 font-secondaryFont text-4xl font-light text-[#242424]  ">
+    <div
+      className={` left-0 flex h-[820px] w-full gap-20 font-secondaryFont text-4xl font-medium ${props.skilsColor}`}
+    >
       <div className="flex h-full w-full flex-col items-center">
         <a
           href="https://developer.mozilla.org/en-US/docs/Web/HTML"
           target="_blank"
-          className="absolute mt-20 "
+          className="absolute mt-20 transition-all duration-150  hover:text-green-400"
         >
           <span>HTML</span>
         </a>
@@ -13,7 +15,7 @@ const Skils = () => {
         <a
           href="https://www.javascript.com/"
           target="_blank"
-          className="absolute mr-10 mt-64"
+          className="absolute mr-10 mt-64 transition-all duration-150 hover:text-green-400"
         >
           <span>JavaScript</span>
         </a>
@@ -21,7 +23,7 @@ const Skils = () => {
         <a
           href="https://react.dev/"
           target="_blank"
-          className="absolute mr-5 mt-[500px]"
+          className="absolute mr-5 mt-[500px] transition-all duration-150 hover:text-green-400"
         >
           <span>React</span>
         </a>
@@ -29,7 +31,7 @@ const Skils = () => {
         <a
           href="https://reactnative.dev/"
           target="_blank"
-          className="absolute ml-12 mt-[700px]"
+          className="absolute ml-12 mt-[700px] transition-all duration-150 hover:text-green-400"
         >
           <span>React Native</span>
         </a>
@@ -37,7 +39,7 @@ const Skils = () => {
 
       <div className="flex h-full w-full flex-col items-center">
         <a
-          className="absolute mr-12 mt-4"
+          className="absolute mr-12 mt-4 transition-all duration-150 hover:text-green-400"
           href="https://code.visualstudio.com/"
           target="_blank"
         >
@@ -45,7 +47,7 @@ const Skils = () => {
         </a>
 
         <a
-          className="absolute mr-80 mt-40"
+          className="absolute mr-80 mt-40 transition-all duration-150 hover:text-green-400"
           href="https://developer.mozilla.org/en-US/docs/Web/CSS"
           target="_blank"
         >
@@ -53,7 +55,7 @@ const Skils = () => {
         </a>
 
         <a
-          className="absolute mr-36 mt-[360px]"
+          className="absolute mr-36 mt-[360px] transition-all duration-150 hover:text-green-400"
           href="https://www.typescriptlang.org/"
           target="_blank"
         >
@@ -61,7 +63,7 @@ const Skils = () => {
         </a>
 
         <a
-          className="absolute mr-80 mt-[560px]"
+          className="absolute mr-80 mt-[560px] transition-all duration-150 hover:text-green-400"
           href="https://www.adobe.com/products/illustrator.html"
           target="_blank"
         >
@@ -69,7 +71,7 @@ const Skils = () => {
         </a>
 
         <a
-          className="absolute mt-[660px]"
+          className="absolute mt-[660px] transition-all duration-150 hover:text-green-400"
           href="https://www.adobe.com/products/indesign.html"
           target="_blank"
         >
@@ -79,7 +81,7 @@ const Skils = () => {
 
       <div className="flex h-full w-full flex-col items-center">
         <a
-          className="absolute  mt-[120px]"
+          className="absolute mt-[120px]  transition-all duration-150 hover:text-green-400"
           href="https://nodejs.org/en"
           target="_blank"
         >
@@ -87,7 +89,7 @@ const Skils = () => {
         </a>
 
         <a
-          className="absolute mr-[420px] mt-[240px] "
+          className="absolute mr-[420px] mt-[240px] transition-all duration-150  hover:text-green-400"
           href="https://www.figma.com/"
           target="_blank"
         >
@@ -95,7 +97,7 @@ const Skils = () => {
         </a>
 
         <a
-          className="absolute mr-36 mt-[400px] "
+          className="absolute mr-36 mt-[400px] transition-all duration-150  hover:text-green-400"
           href="https://www.adobe.com/products/photoshop.html"
           target="_blank"
         >
@@ -103,7 +105,7 @@ const Skils = () => {
         </a>
 
         <a
-          className="absolute mr-96 mt-[560px]"
+          className="absolute mr-96 mt-[560px] transition-all duration-150 hover:text-green-400"
           href="https://www.adobe.com/products/photoshop-lightroom.html"
           target="_blank"
         >
@@ -111,7 +113,7 @@ const Skils = () => {
         </a>
 
         <a
-          className="absolute mr-20 mt-[720px] "
+          className="absolute mr-20 mt-[720px] transition-all duration-150 hover:text-green-400 "
           href="https://www.adobe.com/products/audition.html"
           target="_blank"
         >
@@ -121,7 +123,7 @@ const Skils = () => {
 
       <div className="flex h-full w-full flex-col items-center">
         <a
-          className="absolute mr-56 mt-11"
+          className="absolute mr-56 mt-11 transition-all duration-150 hover:text-green-400"
           href="https://www.adobe.com/products/aftereffects.html"
           target="_blank"
         >
@@ -129,7 +131,7 @@ const Skils = () => {
         </a>
 
         <a
-          className="absolute mt-[200px] "
+          className="absolute mt-[200px] transition-all duration-150 hover:text-green-400 "
           href="https://www.adobe.com/products/premiere/free-trial-download.html"
           target="_blank"
         >
@@ -137,7 +139,7 @@ const Skils = () => {
         </a>
 
         <a
-          className="absolute mr-[400px] mt-[320px] "
+          className="absolute mr-[400px] mt-[320px] transition-all duration-150  hover:text-green-400"
           href="https://github.com"
           target="_blank"
         >
@@ -145,7 +147,7 @@ const Skils = () => {
         </a>
 
         <a
-          className="absolute mt-[460px] "
+          className="absolute mt-[460px] transition-all duration-150  hover:text-green-400"
           href="https://www.blender.org/"
           target="_blank"
         >
@@ -153,14 +155,14 @@ const Skils = () => {
         </a>
 
         <a
-          className="absolute mr-[500px] mt-[600px] "
+          className="absolute mr-[500px] mt-[600px] transition-all duration-150  hover:text-green-400"
           href="https://www.behance.net/"
           target="_blank"
         >
           <span>Bēhance</span>
         </a>
         <a
-          className="absolute mt-[700px] "
+          className="absolute mt-[700px] transition-all duration-150 hover:text-green-400 "
           href="https://dribbble.com/shots"
           target="_blank"
         >
