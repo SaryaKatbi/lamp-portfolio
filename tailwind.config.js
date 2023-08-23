@@ -17,6 +17,9 @@ export default {
       backgroundImage: {
         "gradient-radial":
           "radial-gradient(150% 154% at 50% 50%, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.00) 28%)",
+
+        "gradient-white-radial":
+          "radial-gradient(190% 190% at 50% 50%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.0) 26%)",
       },
 
       colors: {
