@@ -18,7 +18,7 @@ const Abilities = () => {
       }}
     >
       <div
-        className="fixed -left-[10%] -top-[20%] h-96  w-96 self-center rounded-full bg-gradient-white-radial opacity-0 transition-opacity group-hover:opacity-100 "
+        className="fixed -left-[10%] -top-[20%] h-96  w-96 self-center rounded-full bg-gradient-white-radial opacity-0 transition-opacity duration-150 group-hover:opacity-100 "
         style={{
           transform: `translate(${mouseMoveX}px, ${mouseMoveY}px)`,
         }}
