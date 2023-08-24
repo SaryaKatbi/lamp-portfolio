@@ -8,7 +8,7 @@ const Navbar = () => {
     "border-b-[2px] border-white border-opacity-0 pb-2 transition-all hover:border-opacity-100";
 
   return (
-    <nav className="top-0 z-50 flex h-[120px] w-full items-center justify-between font-secondaryFont ">
+    <nav className="top-0 z-50 flex h-[120px] w-full items-center justify-between font-secondaryFont backdrop-blur-sm ">
       <a
         href="https://github.com/SaryaKatbi"
         target="_blank"
