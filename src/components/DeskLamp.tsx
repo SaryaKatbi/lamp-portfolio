@@ -1,15 +1,13 @@
 const DeskLamp = ({
   mouseY,
   aboutTitle,
-  aboutblog1,
-  aboutblog2,
-  aboutblog3,
+  p1,
+  p2,
 }: {
   mouseY: number;
   aboutTitle: string;
-  aboutblog1: string;
-  aboutblog2: string;
-  aboutblog3: string;
+  p1: string;
+  p2: string;
 }) => {
   // NewValue = (((OldValue - OldMin) * (NewMax - NewMin)) / (OldMax - OldMin)) + NewMin
 
@@ -21,8 +19,8 @@ const DeskLamp = ({
   const shadowPosition = ((mouseY - 0) * (10 - 500)) / (1000 - 0) + 250;
 
   return (
-    <section className="flex items-center justify-center ">
-      <div className="absolute bottom-32 -z-10 flex items-end justify-evenly gap-[360px] px-28">
+    <section className="group flex items-center justify-center px-28 ">
+      <div className="absolute -z-50 mt-[460px] flex h-fit items-end gap-[360px]">
         <section>
           <div className="flex flex-col items-center">
             <div
@@ -53,47 +51,58 @@ const DeskLamp = ({
                       transition: "transform 100ms ease",
                     }}
                   >
-                    <div className="h-5 w-10 rounded-t-full bg-white " />
-                    <div className="flex h-[88px] w-44 items-center justify-center rounded-b-full border-[2px] border-white ">
+                    <div className="flex h-5 w-8 items-center justify-center rounded-t-full bg-[#222222] transition-colors duration-500 group-hover:bg-white " />
+                    <div className="absolute -z-50 h-96 w-96 -translate-y-28 bg-gradient-radial-light opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                    <div className="flex h-[88px] w-44 items-center justify-center rounded-b-full border-[2px] border-white bg-primmaryDark ">
                       <div className="absolute mr-20 mt-2 h-9 w-9 origin-top-right rounded-bl-full border-b-[1px] border-white" />
                       <div className="absolute mr-20 mt-2 h-9 w-9 origin-top-right rounded-bl-full border-l-[1px] border-white" />
                     </div>
-                    <div className="-mt-[2px] h-3 w-4 border-[2px] border-white" />
-                    <div className="-mt-[2px] flex h-12 w-12 items-center justify-center rounded-full border-[2px] border-white">
+
+                    <div className="-mt-[2px] h-3 w-4 border-[2px] border-white bg-primmaryDark" />
+                    <div className="-mt-[2px] flex h-12 w-12 items-center justify-center rounded-full border-[2px] border-white bg-primmaryDark">
                       <div className="h-6 w-6 rounded-full border-[2px] border-white" />
                     </div>
                   </div>
-                  <div className=" -mt-[1px] h-60 w-[2px] bg-white" />
+                  <div className="flex gap-2 bg-primmaryDark">
+                    <div className=" -mt-[1px] h-56 w-[2px] bg-white" />
+                    <div className=" -mt-[1px] h-56 w-[2px] bg-white" />
+                  </div>
                   <div className="flex h-12 w-12 items-center justify-center rounded-full border-[2px] border-white">
                     <div className="h-6 w-6 rounded-full border-[2px] border-white" />
                   </div>
                 </div>
-                <div className="h-60 w-[2px] bg-white" />
+                <div className="flex gap-2">
+                  <div className="h-56 w-[2px] bg-white" />
+                  <div className="h-56 w-[2px] bg-white" />
+                </div>
                 <div className="flex h-12 w-12 items-center justify-center rounded-full border-[2px] border-white">
                   <div className="h-6 w-6 rounded-full border-[2px] border-white" />
                 </div>
               </div>
-              <div className="h-60 w-[2px] bg-white" />
+
+              <div className=" flex gap-2">
+                <div className=" h-56 w-[2px] bg-white" />
+                <div className=" h-56 w-[2px] bg-white" />
+              </div>
             </div>
 
-            <div className="-mb-[2px] h-5 w-7 rounded-t-full border-[2px] border-white" />
-            <div className="-mb-[2px] h-5 w-7 border-[2px] border-white" />
-            <div className="h-6 w-52 rounded-t-lg border-[2px] border-white" />
+            <div className="-mb-[2px] -mt-[2px] h-4 w-6 rounded-t-full border-[2px] border-white" />
+            <div className="-mb-[2px] h-4 w-6 border-[2px] border-white" />
+            <div className="h-4 w-44 rounded-t-lg border-[2px] border-white" />
           </div>
         </section>
 
-        <article className="-mb-20 flex w-[620px] flex-col gap-5 font-secondaryFont font-light text-white ">
-          <h2 className="text-5xl uppercase">{aboutTitle}</h2>
-          <p>{aboutblog1}</p>
-          <p>{aboutblog2}</p>
-          <p>{aboutblog3}</p>
+        <article className="-mb-20 flex w-[690px] flex-col gap-4 font-secondaryFont text-2xl font-extralight text-white">
+          <h2 className="text-5xl font-light uppercase ">{aboutTitle}</h2>
+          <p>{p1}</p>
+          <p>{p2}</p>
           <div
             style={{
               transform: `translate(${shadowPosition}px)`,
               transition: "transform 100ms ease",
             }}
           >
-            <div className="left-0 -ml-28 h-32 w-[800px] -rotate-1 bg-gradient-radial " />
+            <div className="left-0 -ml-28 h-32 w-[800px] -rotate-1 bg-gradient-radial opacity-0 transition-opacity duration-500 group-hover:opacity-100 " />
           </div>
         </article>
       </div>

@@ -14,20 +14,15 @@ const About = () => {
       <DeskLamp
         mouseY={mouseY}
         aboutTitle="ABOUT ME"
-        aboutblog1="  
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur."
-        aboutblog2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat."
-        aboutblog3="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis."
+        p1="Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Quo odio reiciendis ipsum obcaecati! Suscipit quas ducimus
+      dolorem qui laborum mollitia eaque.
+        "
+        p2="Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Quo odio reiciendis ipsum obcaecati! Suscipit quas ducimus
+      dolorem qui laborum mollitia eaque. Asperiores,
+      et. Quia omnis illo veritatis nihil harum quidem!
+      "
       />
     </section>
   );
