@@ -19,7 +19,9 @@ const Abilities = () => {
     >
       <div className="relative -z-30 h-full w-full">
         <div
-          className="fixed -left-[10%] -top-[19%] h-96  w-96 self-center rounded-full bg-gradient-white-radial opacity-0 transition-opacity duration-500 group-hover:opacity-100 "
+          className="fixed -left-[13%] -top-[25%] h-[500px] w-[500px] self-center rounded-full
+          bg-gradient-white-radial opacity-0 blur-2xl
+          transition-opacity duration-500 group-hover:opacity-100 "
           style={{
             transform: `translate(${mouseMoveX}px, ${mouseMoveY}px)`,
           }}
