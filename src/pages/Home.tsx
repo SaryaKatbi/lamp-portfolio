@@ -3,16 +3,16 @@ import Lamp from "../components/Lamp";
 
 const Home = () => {
   return (
-    <div>
+    <div className="px-28">
       <div className="flex justify-center">
         <Lamp />
       </div>
 
       <section className="mt-20 flex h-[700px] flex-col items-center justify-center self-center">
-        <h2 className="font-secondaryFont mb-7 mt-10 text-8xl font-medium">
+        <h2 className="mb-7 mt-10 font-secondaryFont text-8xl font-medium">
           Web Designer
         </h2>
-        <h3 className="font-secondaryFont mb-24 text-5xl font-light">
+        <h3 className="mb-24 font-secondaryFont text-5xl font-light">
           SARYA KATBY
         </h3>
         <Button />

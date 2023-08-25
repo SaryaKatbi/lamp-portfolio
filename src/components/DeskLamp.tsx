@@ -75,13 +75,14 @@ const DeskLamp = ({
               </div>
               <div className="h-60 w-[2px] bg-white" />
             </div>
+
             <div className="-mb-[2px] h-5 w-7 rounded-t-full border-[2px] border-white" />
             <div className="-mb-[2px] h-5 w-7 border-[2px] border-white" />
             <div className="h-6 w-52 rounded-t-lg border-[2px] border-white" />
           </div>
         </section>
 
-        <article className="font-secondaryFont -mb-20 flex w-[620px] flex-col gap-5 font-light text-white ">
+        <article className="-mb-20 flex w-[620px] flex-col gap-5 font-secondaryFont font-light text-white ">
           <h2 className="text-5xl uppercase">{aboutTitle}</h2>
           <p>{aboutblog1}</p>
           <p>{aboutblog2}</p>

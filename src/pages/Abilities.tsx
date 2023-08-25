@@ -11,7 +11,7 @@ const Abilities = () => {
 
   return (
     <section
-      className="group top-32"
+      className="group top-32 px-28 "
       onMouseMove={(event) => {
         setMouseX(event.clientX);
         setMouseY(event.clientY);

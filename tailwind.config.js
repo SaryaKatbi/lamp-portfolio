@@ -20,10 +20,14 @@ export default {
 
         "gradient-white-radial":
           "radial-gradient(180% 180% at 50% 50%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.0) 26%)",
+
+        "gradient-radial-light":
+          "radial-gradient(180% 180% at 50% 50%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.0) 26%)",
       },
 
       colors: {
         primmaryDark: "rgb(17, 17, 17)",
+        primmaryDarkAlpah: "rgba(17, 17, 17, 0.2)",
         html: "#E44D26",
         vsCode: "#3FAAF2",
         css: "#1572B6",

@@ -6,6 +6,7 @@ const About = () => {
 
   return (
     <section
+      className="px-28"
       onMouseMove={(event) => {
         setMouseY(event.clientY);
       }}

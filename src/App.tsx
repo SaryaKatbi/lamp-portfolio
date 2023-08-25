@@ -8,7 +8,7 @@ import Contacts from "./pages/Contacts";
 
 const App = () => {
   return (
-    <div className="px-28">
+    <div>
       <Router>
         <Navbar />
         <Routes>
