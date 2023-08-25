@@ -28,9 +28,10 @@ const Contacts = () => {
         <div className="flex w-fit flex-col gap-4 font-extralight">
           <h2 className="text-5xl font-light uppercase">Let's Chat!</h2>
           <p className="w-[800px] text-2xl leading-relaxed tracking-wide ">
-            Looking forward to meet you and learn more about your business and
-            the design challenges it's facing. Feel free to get in touch for
-            inquiries or a virtual coffee.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            cumque quis facere! Fugiat fuga repudiandae explicabo nihil alias
+            eaque doloremque exercitationem, qui a neque quasi numquam minima
+            iure odit quidem.
           </p>
 
           <div className="mt-10 flex justify-between">
