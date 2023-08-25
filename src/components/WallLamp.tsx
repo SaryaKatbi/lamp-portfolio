@@ -27,8 +27,8 @@ const WallLamp = ({
               transition: "transform 100ms ease",
             }}
           >
-            <div className="flex h-5 w-10 items-center justify-center rounded-t-full bg-white">
-              <div className="bg-gradient-radial-light absolute -z-50 h-[500px] w-[500px]" />
+            <div className="flex h-5 w-10 items-center justify-center rounded-t-full bg-[#222222] transition-colors duration-500 group-hover:bg-white">
+              <div className="absolute -z-50 h-[500px] w-[500px] bg-gradient-radial-light opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
             </div>
             <div className="bg flex h-[100px] w-[200px] items-center justify-center rounded-b-full border-[2px] border-white bg-primmaryDark ">
               <div className="absolute mb-16 ml-20 h-9 w-9 origin-bottom-left rotate-[90deg] rounded-tr-full border-t-[1px]" />

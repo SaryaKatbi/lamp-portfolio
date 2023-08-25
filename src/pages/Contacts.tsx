@@ -12,28 +12,31 @@ const Contacts = () => {
       onMouseMove={(event) => {
         setMouseY(event.clientY);
       }}
-      className="flex h-[840px] w-full items-center justify-between overflow-hidden pb-40 font-secondaryFont  "
+      className="group flex h-[840px] w-full items-center justify-between overflow-hidden pb-40 font-secondaryFont"
     >
-      <div
-        className=" left-0 h-[700px] w-40 bg-gradient-radial"
-        style={{
-          transform: `translate( 0px, ${shadowPosition}px)`,
-          transition: "transform 150ms ease",
-        }}
-      />
+      <div className="opacity-0 transition-opacity duration-500 group-hover:opacity-70 ">
+        <div
+          className=" left-0 h-[800px] w-32 bg-gradient-radial"
+          style={{
+            transform: `translate( 0px, ${shadowPosition}px)`,
+            transition: "transform 100ms ease",
+          }}
+        />
+      </div>
 
-      <article className="absolute left-0 px-28">
-        <h2 className="mt-24 text-6xl font-medium">Let's Chat!</h2>
-        <div className="w-fit font-light">
-          <p className="my-16 w-[800px] text-2xl leading-relaxed tracking-wide ">
+      <article className="absolute px-28">
+        <div className="flex w-fit flex-col gap-4 font-extralight">
+          <h2 className="text-5xl font-light uppercase">Let's Chat!</h2>
+          <p className="w-[800px] text-2xl leading-relaxed tracking-wide ">
             Looking forward to meet you and learn more about your business and
             the design challenges it's facing. Feel free to get in touch for
             inquiries or a virtual coffee.
           </p>
-          <div className="flex h-full w-full justify-between font-extralight">
-            <div className="flex flex-col gap-20">
-              <div className="flex flex-col gap-4">
-                <h4 className="">Send me an email</h4>
+
+          <div className="mt-10 flex justify-between">
+            <div className="flex flex-col gap-y-20">
+              <div>
+                <h4>Send me an email</h4>
                 <a
                   className="w-fit border-b-[1px] border-white border-opacity-0 text-2xl transition-all hover:border-opacity-100"
                   target="_blank"
@@ -42,7 +45,8 @@ const Contacts = () => {
                   m.sarya.katby@gmail.com
                 </a>
               </div>
-              <div className="flex flex-col gap-4">
+
+              <div>
                 <h4>Chat on WhatsApp</h4>
                 <a
                   className="w-fit border-b-[1px] border-white border-opacity-0 text-2xl transition-all hover:border-opacity-100"
@@ -53,8 +57,9 @@ const Contacts = () => {
                 </a>
               </div>
             </div>
-            <div className="flex flex-col gap-20">
-              <div className="flex flex-col gap-4">
+
+            <div className="flex flex-col gap-y-20">
+              <div>
                 <h4>Follow me on Twitter</h4>
                 <a
                   className="w-fit border-b-[1px] border-white border-opacity-0 text-2xl transition-all hover:border-opacity-100"
@@ -64,7 +69,8 @@ const Contacts = () => {
                   twitter.com/KatbySarya
                 </a>
               </div>
-              <div className="flex flex-col gap-4">
+
+              <div>
                 <h4>Connect on LinkedIn</h4>
                 <a
                   className="w-fit border-b-[1px] border-white border-opacity-0 text-2xl transition-all hover:border-opacity-100"
