@@ -9,7 +9,7 @@ const Lamp = () => {
           <div className="absolute mb-2 ml-6 h-8 w-8 rotate-12 rounded-tl-full border-t-[1px]" />
           <div className="absolute mb-2 ml-6 h-8 w-8 rotate-12 rounded-tl-full border-l-[1px]" />
         </div>
-        <div className="h-3 w-6 rounded-b-full bg-white" />
+        <div className="h-4 w-7 rounded-b-full bg-[#222222] transition-colors duration-500 group-hover:bg-white " />
       </div>
     </section>
   );

@@ -10,7 +10,7 @@ const Home = () => {
       </div>
 
       <section className="mt-20 flex h-[700px] flex-col items-center justify-center self-center">
-        <h2 className="mb-7 mt-10 font-secondaryFont text-8xl font-medium">
+        <h2 className="mb-7 mt-16 font-secondaryFont text-9xl font-medium">
           Web Designer
         </h2>
         <h3 className="mb-24 font-secondaryFont text-5xl font-light">
