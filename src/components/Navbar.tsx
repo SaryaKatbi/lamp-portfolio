@@ -8,11 +8,17 @@ const Navbar = () => {
     "border-b-[2px] border-white border-opacity-0 pb-2 transition-all hover:border-opacity-100";
 
   return (
-    <nav className="top-0 z-50 flex h-[120px] w-full items-center justify-between px-28 font-secondaryFont backdrop-blur-md">
+    <nav
+      className="top-0 z-50 flex h-[180px] w-full items-center justify-between bg-green-500 px-5 font-secondaryFont
+    backdrop-blur-md md:h-[180px] md:px-10 lg:h-[120px] lg:bg-yellow-500 lg:px-16 xl:bg-blue-500 xl:px-36
+"
+    >
       <a
         href="https://github.com/SaryaKatbi"
         target="_blank"
-        className="group flex items-center border-b-[1px] border-white border-opacity-0 text-sm transition-all hover:border-opacity-100 "
+        className="group flex w-[120px] items-center border-b-[1px] border-white border-opacity-0 text-sm transition-all hover:border-opacity-100
+        lg:w-fit xl:w-fit
+        "
       >
         DEVELOPED BY SARYA KATBY
         <span className="-ml-3 text-lg text-white opacity-0 transition-all group-hover:ml-0.5 group-hover:rotate-45 group-hover:opacity-100">
@@ -20,7 +26,11 @@ const Navbar = () => {
         </span>
       </a>
 
-      <ul className=" flex gap-x-12">
+      <ul
+        className="flex flex-col gap-4 text-end
+      lg:flex lg:flex-row lg:gap-x-12
+      "
+      >
         <li>
           <NavLink
             to="/"
@@ -31,7 +41,6 @@ const Navbar = () => {
             Home
           </NavLink>
         </li>
-
         <li>
           <NavLink
             to="/about"
@@ -42,7 +51,6 @@ const Navbar = () => {
             About
           </NavLink>
         </li>
-
         <li>
           <NavLink
             to="/abilities"
@@ -53,7 +61,6 @@ const Navbar = () => {
             Abilities
           </NavLink>
         </li>
-
         <li>
           <NavLink
             to="/contacts"
