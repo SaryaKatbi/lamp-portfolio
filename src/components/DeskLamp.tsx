@@ -19,8 +19,8 @@ const DeskLamp = ({
   const shadowPosition = ((mouseY - 0) * (10 - 500)) / (1000 - 0) + 250;
 
   return (
-    <section className="group flex items-center justify-center px-28 ">
-      <div className="absolute -z-50 mt-[460px] flex h-fit items-end gap-[360px]">
+    <section className="group flex items-center justify-center ">
+      <div className="absolute -z-50 mt-[460px] flex h-fit min-h-screen items-end gap-[360px]">
         <section>
           <div className="flex flex-col items-center">
             <div

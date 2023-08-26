@@ -1,17 +1,20 @@
 import { useState } from "react";
 import DeskLamp from "../components/DeskLamp";
+import ResDeskLamp from "../components/ResDeskLamp";
 
 const About = () => {
   const [mouseY, setMouseY] = useState(0);
 
   return (
     <section
-      className="px-28"
+      className=""
       onMouseMove={(event) => {
         setMouseY(event.clientY);
       }}
     >
-      <DeskLamp
+      <ResDeskLamp />
+
+      {/* <DeskLamp
         mouseY={mouseY}
         aboutTitle="ABOUT ME"
         p1="Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -23,7 +26,7 @@ const About = () => {
       dolorem qui laborum mollitia eaque. Asperiores,
       et. Quia omnis illo veritatis nihil harum quidem!
       "
-      />
+      /> */}
     </section>
   );
 };
