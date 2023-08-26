@@ -88,7 +88,7 @@ const Contacts = () => {
 
       <WallLamp
         mouseY={mouseY}
-        className=" right-0 top-0 -mr-24 -mt-[600px] h-fit w-fit "
+        className="-mr-[100px] -mt-[600px] h-fit w-fit translate-y-10 "
       />
     </section>
   );
