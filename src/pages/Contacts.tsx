@@ -37,7 +37,7 @@ const Contacts = () => {
           <div className="mt-10 flex justify-between">
             <div className="flex flex-col gap-y-20">
               <div>
-                <h4>Send me an email</h4>
+                <h4 className="text-[#cccccc]">Send me an email</h4>
                 <a
                   className="w-fit border-b-[1px] border-white border-opacity-0 text-2xl transition-all hover:border-opacity-100"
                   target="_blank"
@@ -48,7 +48,7 @@ const Contacts = () => {
               </div>
 
               <div>
-                <h4>Chat on WhatsApp</h4>
+                <h4 className="text-[#cccccc]">Chat on WhatsApp</h4>
                 <a
                   className="w-fit border-b-[1px] border-white border-opacity-0 text-2xl transition-all hover:border-opacity-100"
                   target="_blank"
@@ -61,7 +61,7 @@ const Contacts = () => {
 
             <div className="flex flex-col gap-y-20">
               <div>
-                <h4>Follow me on Twitter</h4>
+                <h4 className="text-[#cccccc]">Follow me on Twitter</h4>
                 <a
                   className="w-fit border-b-[1px] border-white border-opacity-0 text-2xl transition-all hover:border-opacity-100"
                   target="_blank"
@@ -72,7 +72,7 @@ const Contacts = () => {
               </div>
 
               <div>
-                <h4>Connect on LinkedIn</h4>
+                <h4 className="text-[#cccccc]">Connect on LinkedIn</h4>
                 <a
                   className="w-fit border-b-[1px] border-white border-opacity-0 text-2xl transition-all hover:border-opacity-100"
                   target="_blank"
