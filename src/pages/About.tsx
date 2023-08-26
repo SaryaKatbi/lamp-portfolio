@@ -14,7 +14,7 @@ const About = () => {
     >
       <ResDeskLamp />
 
-      {/* <DeskLamp
+      <DeskLamp
         mouseY={mouseY}
         aboutTitle="ABOUT ME"
         p1="Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -26,7 +26,7 @@ const About = () => {
       dolorem qui laborum mollitia eaque. Asperiores,
       et. Quia omnis illo veritatis nihil harum quidem!
       "
-      /> */}
+      />
     </section>
   );
 };
