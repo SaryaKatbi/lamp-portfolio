@@ -1,11 +1,13 @@
 const DeskLamp = ({
   mouseY,
+  className,
   aboutTitle,
   p1,
   p2,
 }: {
   mouseY: number;
   aboutTitle: string;
+  className: string;
   p1: string;
   p2: string;
 }) => {
@@ -19,7 +21,7 @@ const DeskLamp = ({
   const shadowPosition = ((mouseY - 0) * (10 - 500)) / (1000 - 0) + 250;
 
   return (
-    <section className="group flex items-center justify-center ">
+    <section className={`group flex items-center justify-center ${className}`}>
       <div className="absolute -z-50 mt-[460px] flex h-fit min-h-screen items-end gap-[360px]">
         <section>
           <div className="flex flex-col items-center">
@@ -92,8 +94,10 @@ const DeskLamp = ({
           </div>
         </section>
 
-        <article className="-mb-20 flex w-[690px] flex-col gap-4 font-secondaryFont text-2xl font-extralight text-white">
-          <h2 className="text-5xl font-light uppercase ">{aboutTitle}</h2>
+        <article className="-mb-20 flex w-[500px] flex-col gap-4 font-secondaryFont text-xl font-extralight text-white xl:w-[690px] xl:text-2xl">
+          <h2 className="text-4xl font-light uppercase xl:text-5xl ">
+            {aboutTitle}
+          </h2>
           <p>{p1}</p>
           <p>{p2}</p>
           <div
@@ -102,7 +106,7 @@ const DeskLamp = ({
               transition: "transform 100ms ease",
             }}
           >
-            <div className="left-0 -ml-28 h-32 w-[800px] -rotate-1 bg-gradient-radial opacity-0 transition-opacity duration-500 group-hover:opacity-100 " />
+            <div className="left-0 -ml-28 h-32 -rotate-1 bg-gradient-radial opacity-0 transition-opacity duration-500 group-hover:opacity-100 xl:w-[800px] " />
           </div>
         </article>
       </div>
