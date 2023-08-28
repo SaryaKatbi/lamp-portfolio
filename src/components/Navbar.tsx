@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav
       className="top-0 z-50 flex h-[180px] w-full items-center justify-between bg-green-500 px-5 font-secondaryFont
-    backdrop-blur-md md:h-[180px] md:px-10 lg:h-[120px] lg:bg-yellow-500 lg:px-16 xl:bg-blue-500 xl:px-36
+    backdrop-blur-md md:h-[180px] md:px-10 lg:h-[100px] lg:bg-yellow-500 lg:px-16 xl:bg-blue-500 xl:px-36
 "
     >
       <a
