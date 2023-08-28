@@ -3,7 +3,7 @@ import Lamp from "../components/Lamp";
 
 const Home = () => {
   return (
-    <div className="group px-28">
+    <div className="group px-5 md:px-10 lg:px-16 xl:px-36">
       <div className="flex justify-center">
         <Lamp />
         <div className="absolute h-36 w-36 -translate-y-3 bg-gradient-radial-light opacity-0 transition-opacity duration-500 group-hover:opacity-100 lg:h-96 lg:w-96 " />
@@ -25,8 +25,8 @@ const Home = () => {
         <Button />
       </section>
 
-      <section className="-mt-28 flex items-center justify-center overflow-hidden">
-        <div className="h-20 w-full rounded-full bg-gradient-radial opacity-0 transition-opacity duration-500 group-hover:opacity-100 lg:h-32 lg:w-[700px] " />
+      <section className="-mt-52 flex items-center justify-center overflow-hidden lg:-mt-20">
+        <div className="h-40 w-full rounded-full bg-gradient-radial opacity-0 transition-opacity duration-500 group-hover:opacity-100 lg:h-32 lg:w-[700px] " />
       </section>
     </div>
   );
