@@ -7,7 +7,7 @@ const About = () => {
 
   return (
     <section
-      className=""
+      className="px-5 md:px-10 lg:px-16 xl:px-36"
       onMouseMove={(event) => {
         setMouseY(event.clientY);
       }}
@@ -15,6 +15,7 @@ const About = () => {
       <ResDeskLamp />
 
       <DeskLamp
+        className="max-lg:hidden"
         mouseY={mouseY}
         aboutTitle="ABOUT ME"
         p1="Lorem ipsum dolor sit amet consectetur adipisicing elit.
