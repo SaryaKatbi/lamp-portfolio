@@ -11,19 +11,19 @@ const Abilities = () => {
 
   return (
     <section
-      className="group top-32 px-28 "
-      onMouseMove={(event) => {
+      onPointerMove={(event) => {
         setMouseX(event.clientX);
         setMouseY(event.clientY);
       }}
+      className="group px-5 md:px-10 lg:px-16 xl:px-36 "
     >
       <div className="relative -z-30 h-full w-full">
         <div
-          className="fixed -left-[13%] -top-[25%] h-[500px] w-[500px] self-center rounded-full
-          bg-gradient-white-radial opacity-0 blur-2xl
-          transition-opacity duration-500 group-hover:opacity-100 "
+          className="blob fixed aspect-square h-[0] rounded-full bg-gradient-white-radial opacity-0 blur-2xl
+          transition-opacity duration-500 group-hover:opacity-100 lg:h-[500px]"
           style={{
-            transform: `translate(${mouseMoveX}px, ${mouseMoveY}px)`,
+            left: `${mouseMoveX}px`,
+            top: `${mouseMoveY}px`,
           }}
         />
         <Skils skilsColor="absolute text-[#000000]" />
@@ -32,6 +32,4 @@ const Abilities = () => {
   );
 };
 
-// text-[#000000]
-// text-[#242424]
 export default Abilities;

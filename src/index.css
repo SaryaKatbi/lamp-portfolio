@@ -20,3 +20,9 @@ body {
   color: rgb(255, 255, 255);
   border-color: rgb(255, 255, 255);
 }
+
+.blob {
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+}
