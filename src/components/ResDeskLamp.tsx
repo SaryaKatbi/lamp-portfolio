@@ -1,8 +1,8 @@
 const ResDeskLamp = () => {
   return (
     <section className="flex h-full justify-center overflow-hidden lg:hidden">
-      <article className="mt-16 flex w-fit flex-col gap-4 font-secondaryFont text-xl font-extralight text-white xl:w-[690px] xl:text-2xl">
-        <h2 className="text-4xl font-light uppercase xl:text-5xl">About me</h2>
+      <article className="mt-16 flex w-fit flex-col gap-4 font-secondaryFont text-lg font-extralight text-white xl:w-[690px] xl:text-2xl">
+        <h2 className="text-3xl font-light uppercase xl:text-5xl">About me</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo odio
           reiciendis ipsum obcaecati! Suscipit quas ducimus dolorem qui laborum
