@@ -15,7 +15,7 @@ const ResDeskLamp = () => {
           quidem!
         </p>
 
-        <section className="bottom-0 flex translate-x-24 items-center justify-center">
+        <section className=" bottom-0 flex translate-x-24 items-center justify-center">
           <div className="flex h-fit w-fit origin-bottom-center2 -rotate-45 flex-col items-center justify-center">
             <div className="flex origin-bottom-center3 rotate-45 flex-col items-center justify-center">
               <div className="h-4 w-8 rounded-t-full bg-white"></div>
