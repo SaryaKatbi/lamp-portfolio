@@ -20,7 +20,7 @@ const Abilities = () => {
     >
       <div className="relative -z-30 h-full w-full max-lg:hidden">
         <div
-          className="blob fixed aspect-square h-[0] rounded-full bg-gradient-white-radial opacity-100 blur-2xl
+          className="blob fixed aspect-square h-[0] rounded-full bg-gradient-white-radial opacity-0 blur-2xl
           transition-opacity duration-500 group-hover:opacity-100 lg:h-[500px]"
           style={{
             left: `${mouseMoveX}px`,
