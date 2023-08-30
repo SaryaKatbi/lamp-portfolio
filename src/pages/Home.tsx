@@ -6,7 +6,7 @@ const Home = () => {
     <div className="group px-5 md:px-10 lg:px-16 xl:px-36">
       <div className="flex justify-center">
         <Lamp />
-        <div className="absolute h-36 w-36 -translate-y-3 bg-gradient-radial-light opacity-0 transition-opacity duration-500 group-hover:opacity-100 lg:h-96 lg:w-96 " />
+        <div className="absolute h-36 w-36 -translate-y-3 bg-gradient-radial-light opacity-0 transition-opacity duration-500 group-hover:opacity-100 max-lg:hidden lg:h-96 lg:w-96 " />
       </div>
 
       <section className="mt-20 flex h-[700px] flex-col items-center justify-center self-center">
