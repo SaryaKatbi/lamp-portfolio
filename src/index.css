@@ -26,9 +26,3 @@ body {
   top: 50%;
   translate: -50% -50%;
 }
-
-Logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
