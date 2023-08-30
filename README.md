@@ -2,7 +2,8 @@
 
 # Lamp Portfolio
 
-A minimalistic Portfolio inspaired by @hello while surving in Behince and i descided to take a step furhter and build it compleatly with react
+A minimalistic Portfolio inspired by <a href= "https://www.behance.net/gallery/150744037/Web-designer-portfolio-site?tracking_source=search_projects|web+portfolio" target="_blank">@Julia Gruzdeva</a>.<br/>
+I was browsing on <a href= "https://www.behance.net/saryakatby1" target="_blank">Bēhince</a> when I found an impressive portfolio design that inspired me to take a step further and build the whole site using <a href= "https://react.dev/" target="_blank" >React</a>.
 
 ## Inspired by
 
@@ -12,15 +13,21 @@ A minimalistic Portfolio inspaired by @hello while surving in Behince and i desc
 
 https://lamp-portfolio-72012.web.app/
 
-## Tech Stack
-
-**Client:** React, Vite, TailwindCSS
-
-**Server:** Node.js
-
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](/public/1.png)
+
+![App Screenshot](/public/2.png)
+
+![App Screenshot](/public/3.png)
+
+![App Screenshot](/public/4.png)
+
+## Tech Stack
+
+<span style="color:#61DAFB">React</span>, <span style="color:#da35ff">Vite</span>, <span style="color:#41bef6">TailwindCSS</span>
+
+<span style="color:#90C53F">Node.js</span>
 
 ## Run Locally
 
@@ -50,4 +57,4 @@ Start the server
 
 ## Support
 
-For support, email m.sarya.katby@gmail.com
+For support, email us m.sarya.katby@gmail.com
