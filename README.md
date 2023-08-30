@@ -15,13 +15,13 @@ https://lamp-portfolio-72012.web.app/
 
 ## Screenshots
 
-![App Screenshot](/public/HomeGif.gif)
+![App Screenshot](/public/1.png)
 
-![App Screenshot](/public/AboutGif.gif)
+![App Screenshot](/public/2.png)
 
-![App Screenshot](/public/AbilitiesGif.gif)
+![App Screenshot](/public/3.png)
 
-![App Screenshot](/public/ContactsGif.gif)
+![App Screenshot](/public/4.png)
 
 ## Check out the design in Figma
 
