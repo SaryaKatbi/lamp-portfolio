@@ -25,9 +25,10 @@ https://lamp-portfolio-72012.web.app/
 
 ## Tech Stack
 
-<span style="color:#61DAFB">React</span>, <span style="color:#da35ff">Vite</span>, <span style="color:#41bef6">TailwindCSS</span>
+<a  href="https://react.dev/" targe="_blank">React</a>, <a  href="https://vitejs.dev/" targe="_blank">Vite</a>,
+<a href="https://tailwindcss.com/" targe="_blank">TailwindCSS</a>
 
-<span style="color:#90C53F">Node.js</span>
+<a href="https://nodejs.org/en" targe="_blank">Node.js</a>
 
 ## Run Locally
 
