@@ -23,3 +23,5 @@ const App = () => {
 };
 
 export default App;
+
+// Developed with ❤️ by @SaryaKatbi
