@@ -15,13 +15,17 @@ https://lamp-portfolio-72012.web.app/
 
 ## Screenshots
 
-![App Screenshot](/public/1.png)
+![App Screenshot](/public/HomeGif.gif)
 
-![App Screenshot](/public/2.png)
+![App Screenshot](/public/AboutGif.gif)
 
-![App Screenshot](/public/3.png)
+![App Screenshot](/public/AbilitiesGif.gif)
 
-![App Screenshot](/public/4.png)
+![App Screenshot](/public/ContactsGif.gif)
+
+## Check out the design in Figma
+
+[Figma | Lamp Portfolio](https://www.figma.com/file/caKh0zGktQLE1tfIj66N3z/Lamp-Portfolio?type=design&node-id=0%3A1&mode=design&t=C9PpVWjh9oRIXy1O-1)
 
 ## Tech Stack
 
