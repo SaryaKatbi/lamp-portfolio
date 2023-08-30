@@ -1,6 +1,6 @@
 const ResSkils = () => {
   return (
-    <div className="flex h-full w-full flex-col items-center justify-center text-lg">
+    <div className="flex h-full w-full flex-col items-center justify-between gap-8 text-3xl">
       <div className="flex h-full w-full justify-between px-3">
         <a
           href="https://developer.mozilla.org/en-US/docs/Web/HTML"
