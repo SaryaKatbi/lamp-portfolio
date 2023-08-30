@@ -3,7 +3,7 @@
 # Lamp Portfolio
 
 A minimalistic Portfolio inspired by <a href= "https://www.behance.net/gallery/150744037/Web-designer-portfolio-site?tracking_source=search_projects|web+portfolio" target="_blank">@Julia Gruzdeva</a>.<br/>
-I was browsing on <a href= "https://www.behance.net/saryakatby1" target="_blank">Bēhance</a> when I found an impressive portfolio design that inspired me to take a step further and build the whole site using <a href= "https://react.dev/" target="_blank" >React</a>.
+👆 I was browsing in <a href= "https://www.behance.net/saryakatby1" target="_blank">Bēhance</a> when I found an impressive portfolio design that inspired me to take a step further and build the whole site using <a href= "https://react.dev/" target="_blank" >React</a>.
 
 ## Inspired by
 
